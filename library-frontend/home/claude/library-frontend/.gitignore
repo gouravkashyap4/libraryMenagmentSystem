@@ -1,0 +1,38 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# production build
+dist
+build
+
+# environment variables (VERY IMPORTANT)
+.env
+.env
+.env.local
+.env.development
+.env.production
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# misc
+*.log
+*.tmp
+*.cache
+
+# Vite specific
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
